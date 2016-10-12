@@ -1,0 +1,41 @@
+; cPanel first:11.50.5.0 (update_time):1467954892 11.50.5.0: Cpanel::ZoneFile::VERSION:1.3 hostname:a2plcpnl0709.prod.iad2.secureserver.net latest:11.50.5.0
+; Zone file for whatithinkwhenilisten.com
+$TTL 14400
+@      86400	IN      SOA     10.255.250.30. hostingex.godaddy.com. (
+		2016070803	; serial, todays date+todays
+		86400		; refresh, seconds
+		7200		; retry, seconds
+		3600000		; expire, seconds
+		86400 )		; minimum, seconds
+
+whatithinkwhenilisten.com. 86400 IN NS 10.255.250.30.
+whatithinkwhenilisten.com. 86400 IN NS 10.255.251.30.
+
+
+whatithinkwhenilisten.com. IN A 107.180.29.216
+
+whatithinkwhenilisten.com. IN MX 0 whatithinkwhenilisten.com.
+
+mail IN CNAME whatithinkwhenilisten.com.
+www IN CNAME whatithinkwhenilisten.com.
+ftp IN A 107.180.29.216
+
+whatithinkwhenilisten.com. IN TXT "v=spf1 +a +mx +ip4:198.71.240.31 ~all"
+cpanel IN A 107.180.29.216
+webdisk IN A 107.180.29.216
+cpcalendars IN A 107.180.29.216
+cpcontacts IN A 107.180.29.216
+whm IN A 107.180.29.216
+webmail IN A 107.180.29.216
+autoconfig IN A 107.180.29.216
+autodiscover IN A 107.180.29.216
+_autodiscover._tcp IN SRV 0 0 443 cpanelemaildiscovery.cpanel.net.
+_caldav._tcp IN SRV 0 0 2079 a2plcpnl0709.prod.iad2.secureserver.net.
+_caldavs._tcp IN SRV 0 0 2080 a2plcpnl0709.prod.iad2.secureserver.net.
+_carddav._tcp IN SRV 0 0 2079 a2plcpnl0709.prod.iad2.secureserver.net.
+_carddavs._tcp IN SRV 0 0 2080 a2plcpnl0709.prod.iad2.secureserver.net.
+_caldav._tcp IN TXT path=/
+_caldavs._tcp IN TXT path=/
+_carddav._tcp IN TXT path=/
+_carddavs._tcp IN TXT path=/
+default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuddQy+o1dyXdVwRtdlqtesWgYoZqp6Wwip1Va9YkbRQjdBwHkUURYDF+ZIzPBxuB8jx1jJWl/eNHb3OWo3occOGNgxWwIUdQH2xIL6ksIBQpGMjRr3xkRgCEq0ENEDNFIqW4UIYkt60tyBBEZuy7HYE8vQ0HVdFlqljoGvJLDcEuKevfwIWYTYqFGUfZLtElX" abFgQuE2Iy+I0dstG4E8zOurpvNoMg2hKf9dwzYwJ80lz3A8GOfuHH+x3h6zK+j+XBblRmAEJBY15A+7Eb6JZQlCycUbC83NbQVsmOP/G6gjeI7eWEbj22lM49SInf5pRbmnlRaVVd28cOfhFFQKQIDAQAB\;

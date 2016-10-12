@@ -1,0 +1,288 @@
+# Webalizer V2.23-05 Incremental Data - 09/07/2016 05:34:41
+2016 9 7 5 34 41
+77 61 27 19 9 17 13047114 23 19 0
+1 4 19 1 7
+21 17 10110120 3 3 2
+2 1 2358 2 1 1
+19 17 2657131 4 5 4
+10 4 11988 7 5 4
+2 1 2358 2 1 1
+19 17 122909 8 6 6
+4 4 140250 1 2 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1501 1
+0 0 0 0
+1 1 1501 1
+6 3 2528196 3
+0 0 0 0
+4 4 140250 2
+13 12 95272 4
+2 1 3200 1
+1 1 1501 1
+21 17 10110120 3
+0 0 0 0
+8 5 48740 0
+1 1 1501 1
+3 1 3215 2
+2 0 1714 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+12 12 107401 2
+1 1 1501 1
+0 0 0 0
+0 0 0 0
+1 1 1501 1
+0
+0
+0
+61
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/audio/陈粒-奇妙能力歌.mp3
+0 1 0 4050636 0 0
+/images/奇妙能力歌.jpg
+0 1 0 494713 0 0
+/js/bootstrap.min.js
+0 3 0 29319 0 0
+/js/jquery.qrcode.min.js
+0 3 0 14253 0 0
+/songoutput/output.json
+0 5 0 31965 0 0
+/js/script.js
+0 4 0 5548 0 0
+/images/过不去.jpg
+0 1 0 49048 0 0
+/video/fullscreen-new.mp4
+0 1 0 1768108 0 0
+/css/bootstrap.min.css
+0 6 0 220045 0 0
+/fonts/glyphicons-halflings-regular.woff
+0 1 0 23138 0 0
+/fonts/glyphicons-halflings-regular.woff2
+0 1 0 18030 0 0
+/js/ajax-utils.js
+0 3 0 1896 0 0
+/
+0 21 0 37655 18 0
+/css/styles.css
+0 5 0 20389 0 0
+/audio/The Mamas 
+0 1 0 2522623 1 1
+/js/jquery-2.1.4.min.js
+0 4 0 118164 0 0
+/audio/张惠妹-过不去.mp3
+0 1 0 3586054 0 0
+/fonts/comingsoon.woff
+0 1 0 25664 0 0
+/fonts/nothing.woff
+0 1 0 17883 0 0
+# End Of Table - urls
+# -sites- (monthly)
+123.125.67.162
+0 1 0 857 0 0
+-
+64.246.165.170
+0 2 1 3200 1 1472974925
+/
+91.210.145.114
+0 1 1 1501 1 1473164252
+/
+66.249.64.117
+0 5 4 26136 1 1473144846
+/
+207.102.138.158
+0 11 11 105900 1 1472930435
+/
+123.125.71.47
+0 1 0 857 0 0
+-
+38.100.21.69
+0 4 4 140250 1 1473226481
+/
+61.135.190.220
+0 3 3 65475 0 0
+-
+192.237.216.89
+0 1 1 1501 1 1472695220
+/
+195.154.146.225
+0 1 1 1501 1 1473035450
+/
+220.181.51.103
+0 1 0 857 0 0
+-
+61.130.246.77
+0 2 2 3002 1 1472873090
+/
+123.125.71.31
+0 1 1 1501 1 1472857315
+/
+176.31.149.121
+0 2 1 2358 1 1472997178
+-
+123.125.71.108
+0 1 1 1501 1 1473194565
+/
+50.177.221.253
+0 19 19 10107762 1 1472721638
+/
+123.125.71.60
+0 1 0 857 0 0
+-
+220.181.108.141
+0 1 0 857 0 0
+-
+61.135.190.221
+0 6 6 24437 1 1473143740
+/
+183.240.92.149
+0 1 1 1501 1 1473150030
+/
+66.249.66.244
+0 5 4 2547372 2 1472885083
+/
+123.125.71.14
+0 1 0 857 0 0
+-
+220.181.51.82
+0 1 0 857 0 0
+-
+123.125.71.57
+0 1 0 857 0 0
+-
+123.125.71.15
+0 1 1 1501 1 1473015622
+/
+61.135.190.223
+0 1 1 1501 1 1473144233
+/
+66.249.66.182
+0 2 1 2358 1 1472982818
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+38.100.21.69
+0 4 4 140250 1 1473226481
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://whatithinkwhenilisten.com
+0 1
+http://m.baidu.com/s
+0 1
+http://www.whatithinkwhenilisten.com/css/bootstrap.min.css
+0 1
+http://www.whatithinkwhenilisten.com/css/styles.css
+0 2
+- (Direct Request)
+0 33
+http://www.whatithinkwhenilisten.com/
+0 26
+http://whatithinkwhenilisten.com/
+0 11
+http://www.baidu.com/s
+0 1
+http://whois.domaintools.com/whatithinkwhenilisten.com
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+0 1
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 8
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 12
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-N9009 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chr
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/
+0 8
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+0 4
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36
+0 11
+Dalvik/2.1.0 (Linux; U; Android 5.0; SM-N9009 Build/LRX21V)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 17
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,517 @@
+canvas{
+  -webkit-touch-callout: default;
+}
+body {
+  font-size: 16px;
+  font-family: 'Coming Soon', cursive;
+  height: 1430px;
+}
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+/** HEADER **/
+#header-nav {
+  position: relative;
+  height:120px;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 9999;
+  display: block;
+  background-color: #a9a9a9;
+  opacity: 0.5;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+.container{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height:auto;
+  min-height:100%;
+  z-index: 1;
+  margin-left: 10%;
+}
+.navbar-header {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height:100%;
+z-index: 1;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 50px;
+  background-color: #a9a9a9;
+}
+.navbar-brand h1 { /* Website name */
+  font-family: 'Nothing You Could Do', cursive;
+  color: #f8f8ff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand p { /* Enjoy the moment! */
+  font-family: 'Nothing You Could Do', cursive;
+  color: #f8f8ff;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+#nav-list {
+  margin-top: 0px;
+  background-color: #a9a9a9;
+}
+#nav-list a {
+  color: #f8f8ff;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #87ceeb;
+  opacity: 0.5;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/* FOOTER */
+footer>.container{
+  text-align: center;
+  top: 25px;
+}
+.panel-footer {
+  background-color: #fff;
+  border-top: 1px solid #000;
+  width: 100%;
+  position: relative;
+  top: -200px;
+}
+.text-center {
+  color: #000
+}
+.weixin-share{
+  text-align: center;
+}
+/* END FOOTER */
+/* HOME PAGE */
+.main {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  top: -200px;
+  height:2000px;
+}
+/* full screen video*/
+.section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.section-fullscreen{
+background-color: #f8f8ff;
+color: #ccc;
+min-height: 795px;
+}
+.page-content .video-fade{
+  position: fixed;
+}
+.page-content .section-fullscreen .section-background{
+z-index: -1;
+}
+.page-content .section-fullscreen .section-dance{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  position: absolute;
+}
+.page-content .section-fullscreen .section-dance video{
+  width: 100%;
+  min-height: 800px;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  max-width: none;
+  object-fit: cover;
+  transform: translateX(0) translateY(0);
+}
+.page-content .section-fullscreen .large-fixed{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -50;
+}
+.section-dance {
+  max-width: 1860px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.section-fullscreen-overview .section-dance .video-fade, .section-fullscreen-overview .section-headline .section-image{
+  background-size: cover;
+  background-position:center center;
+}
+.page-content .video-fade{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.stopfade {
+   opacity: .5;
+}
+.page-content .section-fullscreen-overview .section-foreground{
+  opacity: 1;
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+}
+.section-fullscreen .section-headline{
+  text-align: center;
+  min-height: 600px;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+.video .page-content .section-headline .section-image{
+  background-image: none;
+}
+.section-fullscreen .section-headline .section-image{
+  position: absolute;
+  z-index: -1;
+  min-height: 600px;
+  height: 100vh;
+  width: 100%;
+}
+.section-fullscreen .section-headline .section-content{
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  letter-spacing: .3rem;
+  color: #fff;
+}
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  transition: .6s background;
+}
+.section-fullscreen .glyphicon-menu-down {
+  position: absolute;
+  z-index: 50;
+  top:95%;
+  border: none;
+  background-color: transparent;
+  font-size:xx-large;
+  color:#fff;
+  padding: 0;
+}
+/*music section*/
+.music-recommendation {
+  height: 1200px;
+  width: 100%;
+  float: left;
+  clear:both;
+  position: relative;
+  border: 0px;
+  background-color: #43454f;
+}
+.music-background{
+  position: relative;
+  height: 470px;
+  top: 5%;
+  padding:0;
+}
+.music-play{
+  height: 12.5%;
+  top: 5%;
+}
+img.cover{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+div.song-lyric{
+  text-align: center;
+  top: 5%;
+  border: 0;
+  display: block;
+  height: 350px;
+  position: relative;
+  padding:0;
+}
+div.lyric{
+  top: 2.5%;
+  color: #fff;
+  display: block;
+  margin: auto;
+  position: relative;
+  overflow: auto;
+  width: 400px;
+  height: 320px;
+}
+.music-comment{
+  position: relative;
+  padding: 0;
+  top:5%;
+  height: 180px;
+}
+div.sentence{
+    border: 0;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 180px;
+    position: relative;
+}
+blockquote.comment-sentence {
+    display: block;
+    margin: auto;
+    font-family: 'STKaiti';
+    height: 80px;
+    color: #fff;
+}
+.btn-default{
+  background-color: transparent;
+  display: block;
+  margin: auto;
+  position: relative;
+  color: #fff;
+}
+.audio-player,
+.audio-player div,
+.audio-player h1,
+.audio-player a,
+.audio-player img,
+.audio-player span,
+.audio-player button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+div.audio-player {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    max-width: 450px;
+    min-width: 300px;
+    background: #4c4e5a;
+    background: -webkit-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -moz-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -o-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -ms-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.audio-player h1 {
+    position: absolute;
+    top: 20%;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+}
+#audio-player{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* END HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.main{
+  height: 1430px;
+}
+.music-recommendation{
+  height: 630px;
+}
+div.audio-player{
+  float: right;
+}
+img.cover{
+  float: right;
+}
+.music-comment{
+  float: right;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.main{
+  height: 1430px;
+}
+.music-recommendation{
+  height: 630px;
+}
+  #myCarousel {
+  float:right;
+}
+div.audio-player{
+  float: right;
+}
+.music-comment{
+  float: right;
+}
+img.cover{
+  float: right;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  /* End Home Page */
+}
+/********** Extra small devices only **********/
+@media (min-width: 580px) and (max-width: 767px) {
+  /* Header */
+.nacbar-header {
+  position: relative;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 9998;
+  display: block;
+  background-color: #a9a9a9;
+  opacity: 0.5;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
+}
+.navbar-toggle{
+    border: none;
+    margin-bottom: 25px;
+}
+.navbar-brand #navbar-toggle {
+    padding-top: 10px;
+    height: 80px;
+  }
+.navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+.navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+.navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: -10px;
+    padding: -10px;
+    border: 0px;
+    color: #000;
+  }
+#xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+}
+  /* End Header */
+  /* Footer */
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+.panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+.panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+  /* Home Page */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+.navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 5vw;
+  }
+.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 100%;
+  }
+.section-fullscreen{
+  max-height: 675px;
+}
+img.cover,div.audio-player, div.lyric, div.sentence{
+  width: 80%;
+}
+img.cover{
+  height: 350px;
+}
+video#bgvid, div.video-fade{
+  display: none;
+}
+.btn-default{
+  top: 50%;
+}
+}
+/* latin */
+@font-face {
+  font-family: 'Coming Soon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coming Soon'), local('ComingSoon'), url(../fonts/comingsoon.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Nothing You Could Do';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nothing You Could Do'), local('NothingYouCouldDo'), url(../fonts/nothing.woff) format('woff');
+}
+.mobile-only{
+        background-image:url(../images/background.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+}
